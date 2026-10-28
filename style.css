@@ -1,0 +1,142 @@
+body{ 
+    background-color: aliceblue;
+    color: black;
+    font-family:  Tahoma, Arial;
+    margin: 0;
+    padding: 0;      
+}
+
+.header {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    border-bottom: 4px solid orange;
+}
+
+.header h1 {
+    color: yellow;
+    margin: 0;
+}
+
+.nav {
+    margin-top: 15px;
+}
+
+.nav a {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    margin: 5px;
+    border: 2px solid black;
+}
+
+.nav a:hover {
+    background-color: yellow;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.box {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 2px solid darkblue;
+    overflow: auto;
+}
+
+h2 {
+    color: darkblue;
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 5px;
+}
+.main-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    border: 3px solid darkblue;
+    border-radius: 50%;
+    float: right;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.project-card {
+    background-color: lightyellow;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid gray;
+    border-left: 5px solid darkblue;
+}
+
+.project-card h3 {
+    margin-top: 0;
+    color: darkred;
+}
+
+.project-card: hover {
+    background-color: white;
+    border-left: 8px solid orange;
+}
+
+.box: hover {
+    border-color: black;
+}
+
+ul li{
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.tag {
+    background-color: lightblue;
+    color: black;
+    font-size: 13px;
+    padding: 3px 8px;
+    border: 1px solid black;
+    margin-right: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: darkblue;
+    color: white;
+}
+
+.btn {
+    display: inline-block;
+    background-color: orange;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 2px solid black;
+}
+
+.btn:hover {
+    background-color: yellow;
+}
+
+.footer {
+    text-align: center;
+    padding: 15px;
+    background-color: darkblue;
+    color: white;
+    margin-top: 30px;
+}
